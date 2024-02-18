@@ -7,6 +7,7 @@ public class ArrayReversal {
         Integer arr[]={5,4,3,2,1};
         usingExtraArray(arr);
         usingLoopIp(arr);
+        System.out.println("Reversing inplace"+Arrays.toString(arr));
         usingRec(arr,arr.length-1);
         
         System.out.println("Reversing with recursion"+Arrays.toString(arr));
